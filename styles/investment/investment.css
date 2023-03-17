@@ -1,0 +1,95 @@
+.investment {
+  padding-bottom: 20px;
+}
+.investment__title {
+  margin-bottom: 20px;
+  font-family: "Orchidea Pro";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.investment__title span {
+  color: #FDA700;
+}
+.investment__subtitle {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.investment__video {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 170px;
+  margin: 0 auto;
+}
+.investment__video span {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+.investment__button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.investment__button img {
+  width: 85px;
+  height: 85px;
+}
+
+@media (min-width: 768px) {
+  .investment__title {
+    font-size: 45px;
+  }
+  .investment__title span {
+    color: #FDA700;
+  }
+  .investment__subtitle {
+    width: 524px;
+    font-size: 25px;
+  }
+}
+@media (min-width: 1920px) {
+  .investment {
+    width: 799px;
+    padding: 0;
+  }
+  .investment__title {
+    margin-bottom: 35px;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: start;
+  }
+  .investment__title span {
+    color: #FDA700;
+  }
+  .investment__subtitle {
+    width: 623px;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .investment__video {
+    position: absolute;
+    top: 48px;
+    right: 96px;
+    width: 215px;
+  }
+  .investment__button img {
+    width: 125px;
+    height: 125px;
+  }
+}/*# sourceMappingURL=investment.css.map */

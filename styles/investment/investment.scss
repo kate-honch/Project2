@@ -1,0 +1,116 @@
+.investment {
+    padding-bottom: 20px;
+
+    &__title {
+        margin-bottom: 20px;
+        font-family: 'Orchidea Pro';
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        span {
+            color: #FDA700;
+        }
+    }
+
+    &__subtitle {
+        margin: 0 auto;
+        padding-bottom: 20px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__video {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        width: 170px;
+        margin: 0 auto;
+
+        span {
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+    }
+
+    &__button {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+
+        img {
+            width: 85px;
+            height: 85px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .investment {
+
+        &__title {
+            font-size: 45px;
+
+            span {
+                color: #FDA700;
+            }
+        }
+
+        &__subtitle {
+            width: 524px;
+            font-size: 25px;
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .investment {
+        width: 799px;
+        padding: 0;
+
+        &__title {
+            margin-bottom: 35px;
+            font-size: 50px;
+            line-height: 50px;
+            text-align: start;
+
+            span {
+                color: #FDA700;
+            }
+        }
+
+        &__subtitle {
+            width: 623px;
+            margin: 0;
+            padding: 0;
+            text-align: start;
+            font-size: 30px;
+            line-height: 35px;
+        }
+
+        &__video {
+            position: absolute;
+            top: 48px;
+            right: 96px;
+            width: 215px;
+        }
+
+        &__button {
+
+            img {
+                width: 125px;
+                height: 125px;
+            }   
+        }
+    }
+}

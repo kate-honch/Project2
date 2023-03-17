@@ -1,0 +1,148 @@
+.form {
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  background: rgba(13, 43, 109, 0.8);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.form__title {
+  margin-bottom: 20px;
+  font-family: "Orchidea Pro";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #FDA700;
+  text-align: center;
+}
+.form input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 17px 0 17px 30px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  color: #FFFFFF;
+  border: none;
+  background: #0D2B6D;
+  box-sizing: border-box;
+}
+.form input:last-child {
+  padding: 17px 0 17px 133px;
+}
+.form input::-moz-placeholder {
+  color: #FFFFFF;
+}
+.form input::placeholder {
+  color: #FFFFFF;
+}
+.form__block {
+  position: relative;
+}
+.form__block img {
+  width: 24px;
+  height: 17px;
+}
+.form__container {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+.form__select {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  color: #FFFFFF;
+  border: none;
+  background: transparent;
+}
+.form__select option {
+  background: #0D2B6D;
+}
+.form__submit {
+  width: 100%;
+  height: 59px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #373737;
+  background: #FDA700;
+  border-radius: 10px;
+  border: navajowhite;
+  cursor: pointer;
+}
+.form__submit:hover {
+  background: #f1e8d7;
+  transition: 0.4s;
+}
+
+@media (min-width: 768px) {
+  .form {
+    padding: 50px 73px 60px;
+    height: 500px;
+  }
+  .form input {
+    height: 57px;
+  }
+  .form input:last-child {
+    padding: 17px 0 17px 136px;
+  }
+  .form__block {
+    position: relative;
+  }
+  .form__container {
+    top: 20px;
+  }
+}
+@media (min-width: 1920px) {
+  .form {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 490px;
+    padding: 50px 45px 60px;
+  }
+  .form input {
+    height: 57px;
+    padding: 17px 0 17px 20px;
+  }
+  .form input:last-child {
+    padding: 17px 0 17px 130px;
+  }
+  .form__block {
+    position: relative;
+  }
+  .form__container {
+    top: 20px;
+  }
+}
+.form__flag--Ukr {
+  display: none;
+}
+
+.form__flag--Ukr.active {
+  display: block;
+}
+
+.form__flag--Tur,
+.form__flag--Pol,
+.form__flag--Bel {
+  display: none;
+}
+
+.form__flag--Tur.active,
+.form__flag--Pol.active,
+.form__flag--Bel.active {
+  display: block;
+}/*# sourceMappingURL=form.css.map */

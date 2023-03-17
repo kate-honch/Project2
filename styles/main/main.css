@@ -1,0 +1,33 @@
+.main {
+  height: 1178px;
+  background-image: url(../../images/background.svg);
+  background-repeat: no-repeat;
+}
+@media (min-width: 1500px) {
+  .main {
+    background-size: 100%;
+  }
+}
+@media (min-width: 1920px) {
+  .main {
+    height: 1050px;
+    background-image: url(../../images/background-largeScreen.png);
+  }
+}
+.main__container {
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .main__container {
+    width: 733.13px;
+  }
+}
+@media (min-width: 1920px) {
+  .main__container {
+    display: flex;
+    width: 1208px;
+    height: 703px;
+  }
+}/*# sourceMappingURL=main.css.map */

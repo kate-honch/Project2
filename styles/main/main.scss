@@ -1,0 +1,30 @@
+.main {
+    height: 1178px;
+    background-image: url(../../images/background.svg);
+    background-repeat: no-repeat;
+
+    @media (min-width: 1500px) {
+        background-size: 100%;
+    }
+
+    @media (min-width: 1920px) {
+        height: 1050px;
+        background-image: url(../../images/background-largeScreen.png);
+    }
+
+    &__container {
+        position: relative;
+        width: 350px;
+        margin: 0 auto;  
+
+        @media (min-width: 768px) {
+            width: 733.13px;   
+        }
+        
+        @media (min-width: 1920px) {
+            display: flex;
+            width: 1208px;
+            height: 703px;
+        }
+    }
+}

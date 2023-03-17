@@ -1,0 +1,131 @@
+.steps {
+  margin-bottom: 100px;
+}
+.steps__title {
+  margin-bottom: 40px;
+  font-family: "Orchidea Pro";
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #373737;
+}
+.steps__container {
+  width: 350px;
+  margin: 0 auto;
+}
+.steps__container > div {
+  position: relative;
+  width: 100%;
+  height: 154px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #F3F3F3;
+  box-shadow: 4px 4px 4px rgba(55, 55, 55, 0.25);
+  cursor: pointer;
+}
+.steps__container > div:hover {
+  box-shadow: 4px 4px 4px rgba(55, 55, 55, 0.39);
+}
+.steps__container > div:last-child {
+  margin: 0;
+}
+.steps__container img {
+  width: 57px;
+  height: 60px;
+}
+.steps__subtitle {
+  margin-bottom: 10px;
+  font-family: "Orchidea Pro";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FDA700;
+}
+.steps__subtitle--first {
+  padding-top: 50px;
+}
+.steps__subtitle--second {
+  padding-top: 24px;
+}
+.steps__subtitle--third {
+  padding-top: 48px;
+}
+.steps__background {
+  position: absolute;
+}
+.steps__background--first, .steps__background--third {
+  top: 0;
+  left: 24px;
+}
+.steps__background--second {
+  top: 0;
+  right: 24px;
+}
+.steps__text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #373737;
+}
+
+@media (min-width: 768px) {
+  .steps__title {
+    font-size: 50px;
+  }
+  .steps__container {
+    width: 723px;
+    margin: 0 auto;
+  }
+  .steps__container img {
+    width: 70px;
+    height: 100px;
+  }
+  .steps__subtitle--second {
+    padding-top: 13px;
+  }
+  .steps__background {
+    position: absolute;
+  }
+  .steps__background--first, .steps__background--third {
+    top: 0;
+    left: 24px;
+  }
+  .steps__background--second {
+    top: 0;
+    right: 24px;
+  }
+  .steps__text--second {
+    width: 391px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1920px) {
+  .steps {
+    display: none;
+  }
+  .steps__title {
+    font-size: 60px;
+    line-height: 61px;
+  }
+  .steps__subtitle {
+    font-size: 40px;
+  }
+  .steps__text {
+    font-size: 22px;
+  }
+  .steps__container {
+    width: 1000px;
+  }
+  .steps__container img {
+    width: 100px;
+    height: 110px;
+  }
+  .steps.active {
+    display: block;
+  }
+}/*# sourceMappingURL=steps.css.map */
